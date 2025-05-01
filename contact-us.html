@@ -1,0 +1,244 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- This is to automatically adjust screen sizes on different devices  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Create four equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 25%;
+          padding: 10px;
+        /*  height: 300px; /* Should be removed. Only for demonstration */
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+          }
+        }
+        </style>
+
+</head>
+  <body>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+<nav class= "hero navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand"><img src="./images/glasseslogo2.png"></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Products.html">Products</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./contact-us.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./About-Us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./Reviews.html">Reviews</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<h1></h1>
+<h2></h2>
+
+<body>
+
+    <div class="hero row gy-3 ">
+        <div class="column" >
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/latoyabrown.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Latoya Brown</h1> 
+                    <p>Lab Tech</p> 
+                    <p>(876)123-3211</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="column" >
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/latoyabeckford.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Latoya Beckford</h1> 
+                    <p>C.E.O</p> 
+                    <p>(876)123-3212</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="column" >
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/monique.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Monique</h1> 
+                    <p>Manager</p> 
+                    <p>(876)123-3213</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="column" >
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/Jonathon.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Jonathon</h1> 
+                    <p>Superviser</p> 
+                    <p>(876)123-3214</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="column" >
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/Trox.Web.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Troxel</h1> 
+                    <p>Sage</p> 
+                    <p>(876)123-3216</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+       
+    
+</div>
+
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+      <div class="container">
+          <div class="text-center">
+              <h2 class="section-heading text-uppercase">Be The First To Know</h2>
+              <h3 class="section-subheading text-muted">Subscribe to our newsletter for breaking news and updates.</h3>
+          </div>
+          <!-- * * * * * * * * * * * * * * *-->
+          <!-- * * SB Forms Contact Form * *-->
+          <!-- * * * * * * * * * * * * * * *-->
+          <!-- This form is pre-integrated with SB Forms.-->
+          <!-- To make this form functional, sign up at-->
+          <!-- https://startbootstrap.com/solution/contact-forms-->
+          <!-- to get an API token!-->
+          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+              <div class="row align-items-stretch mb-5">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <!-- Name input-->
+                          <input class="form-control" id="name" type="text" placeholder="Your Name *"
+                              data-sb-validations="required" />
+                          <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                      </div>
+                      <div class="form-group">
+                          <!-- Email address input-->
+                          <input class="form-control" id="email" type="email" placeholder="Your Email *"
+                              data-sb-validations="required,email" />
+                          <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                          <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                      </div>
+                      <div class="form-group mb-md-0">
+                          <!-- Phone number input-->
+                          <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
+                              data-sb-validations="required" />
+                          <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group form-group-textarea mb-md-0">
+                          <!-- Message input-->
+                          <textarea class="form-control" id="message" placeholder="Your Message *"
+                              data-sb-validations="required"></textarea>
+                          <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Submit success message-->
+              <!---->
+              <!-- This is what your users will see when the form-->
+              <!-- has successfully submitted-->
+              <div class="d-none" id="submitSuccessMessage">
+                  <div class="text-center text-white mb-3">
+                      <div class="fw-bolder">Form submission successful!</div>
+                      To activate this form, sign up at
+                      <br />
+                      <a
+                          href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                  </div>
+              </div>
+              <!-- Submit error message-->
+              <!---->
+              <!-- This is what your users will see when there is-->
+              <!-- an error submitting the form-->
+              <div class="d-none" id="submitErrorMessage">
+                  <div class="text-center text-danger mb-3">Error sending message!</div>
+              </div>
+              <!-- Submit Button-->
+              <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled"
+                      id="submitButton" type="submit">Subscribe</button></div>
+          </form>
+      </div>
+  </section>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+</html>
