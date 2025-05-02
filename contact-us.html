@@ -121,7 +121,7 @@
                     <img src="./images/monique.jpeg" alt="Avatar" style="width:300px;height:300px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>Monique</h1> 
+                    <h1>Monique Miller</h1> 
                     <p>Manager</p> 
                     <p>(876)123-3213</p>
                   </div>
@@ -235,7 +235,121 @@
                       id="submitButton" type="submit">Subscribe</button></div>
           </form>
       </div>
+      <Section>
+      <div>
+      <title>Contact Info</title>
+</head>
+<body>
+  <h2>Contact Information</h2>
+  <ul>
+    <li><strong>Telephone:</strong> (888) 987-3333</li>
+    <li><strong>Email address:</strong> <a href="mailto:support@visionvogue.com">support@visionvogue.com</a></li>
+    <li><strong>Address:</strong> 111 Lost Lane, Kingston, Jamaica</li>
+    <li><strong>Socials:</strong> VisionVogueJa</li>
+  </ul>
+</div>
+</Section>
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+    
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+    
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required />
+    
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+    
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
   </section>
+<section>
+  <div>
+    <h2>Reviews</h2>
+    <body>
+      <div class="reviews-container">
+        <h2>What Our Customers Say</h2>
+    
+        <div class="review">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>Absolutely love my new glasses from Vision Vogue! The styles are so trendy, and I found the perfect pair that fits my face perfectly. The staff was super helpful and guided me through the whole process. Will definitely be coming back for a second pair!</p>
+          <div class="author">— Janelle M.</div>
+        </div>
+    
+        <div class="review">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>I’ve bought glasses from other places before, but Vision Vogue blew me away. The quality is top-notch, and they even helped me customize the lenses for my prescription. Plus, the store vibe is modern and welcoming—such a great shopping experience!</p>
+          <div class="author">— Andre T.</div>
+        </div>
+    
+        <div class="review">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>Stylish, affordable, and excellent service! Vision Vogue made it so easy to find frames that suit my personality. I’ve gotten so many compliments already. Highly recommend this store to anyone looking to upgrade their eyewear game!</p>
+          <div class="author">— Sasha B.</div>
+        </div>
+</section>
+<section>
+<div class="container">
+  <h2>Leave a Review</h2>
+  <form class="review-form" id="reviewForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="rating">Rating</label>
+    <select id="rating" name="rating" required>
+      <option value="">Select rating</option>
+      <option value="5">⭐⭐⭐⭐⭐</option>
+      <option value="4">⭐⭐⭐⭐</option>
+      <option value="3">⭐⭐⭐</option>
+      <option value="2">⭐⭐</option>
+      <option value="1">⭐</option>
+    </select>
+
+    <label for="review">Review</label>
+    <textarea id="review" name="review" rows="5" required></textarea>
+
+    <button type="submit">Submit Review</button>
+  </form>
+
+  <h2>Customer Reviews</h2>
+  <div id="reviewsContainer">
+    <!-- Submitted reviews will appear here -->
+  </div>
+</div>
+
+<script>
+  const reviewForm = document.getElementById('reviewForm');
+  const reviewsContainer = document.getElementById('reviewsContainer');
+
+  reviewForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const rating = document.getElementById('rating').value;
+    const reviewText = document.getElementById('review').value;
+
+    const reviewDiv = document.createElement('div');
+    reviewDiv.classList.add('review');
+
+    reviewDiv.innerHTML = `
+      <div class="stars">${'⭐'.repeat(rating)}</div>
+      <p>${reviewText}</p>
+      <div class="author">— ${name}</div>
+    `;
+
+    reviewsContainer.prepend(reviewDiv);
+    reviewForm.reset();
+  });
+</script>
+</div>
+</section>
+</body>
+</body>
   <footer>
     <footer class="text-center py-4">
     <p>&copy; <span id="year"></span> Vision Vogue. All rights reserved.</p>
