@@ -79,7 +79,9 @@ body {
 
   :root {
     --primary-blue: #1ba6d4;
+    --primary-yellow: rgb(239, 215, 78);
     --white: #ffffff;
+    --black: black;
     --dark-gray: #333333;
   }
 
@@ -108,6 +110,13 @@ body {
 
   .hero {
     background: linear-gradient(to right, var(--white), var(--primary-blue));
+    color: var(--white);
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+
+  .hero1 {
+    background: linear-gradient(to right, var(--black), var(--primary-yellow));
     color: var(--white);
     padding: 4rem 1rem;
     text-align: center;
