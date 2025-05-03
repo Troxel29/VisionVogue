@@ -125,7 +125,7 @@ body {
   .hero h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: var(--primary-blue);
+    color: black;
   }
 
   .hero h2 {
