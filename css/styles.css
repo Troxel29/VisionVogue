@@ -31,6 +31,9 @@ body {
 
 
   }
+.about-page {
+    background-color: #d9ecec;
+  }
   
   .flip-card {
     background-color: transparent;
