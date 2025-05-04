@@ -132,7 +132,7 @@ body {
     font-size: 2rem;
     margin-bottom: 1.5rem;
     font-weight: 600;
-    color: var(--white);
+    color: black;
   }
 
   .cta-button {
@@ -205,3 +205,8 @@ body {
   margin-top:8px;
   font-size:14px;
 }
+.promo-fine-print {
+  color: black;
+
+
+  
