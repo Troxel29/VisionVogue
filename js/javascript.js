@@ -20,3 +20,27 @@
     reviewsContainer.prepend(reviewDiv);
     reviewForm.reset();
   });
+  function handleSearch(event) {
+    event.preventDefault();
+    const query = document.getElementById('search-query').value.toLowerCase().trim();
+  
+    const routes = [
+      { keywords: ['home'], page: 'Index.html' },
+      { keywords: ['products', 'glasses', 'shop'], page: 'Products.html' },
+      { keywords: ['about', 'our story', 'history'], page: 'About-Us.html' },
+      { keywords: ['blog', 'articles'], page: 'Blog.html' },
+      { keywords: ['contact', 'support'], page: 'contact-us.html' },
+      { keywords: ['faq', 'questions'], page: 'faq.html' },
+      { keywords: ['prescription', 'checkout', 'lenses'], page: 'Prescriptions.html' }
+    ];
+    for (const route of routes) {
+      for (const keyword of route.keywords) {
+        if (query.includes(keyword)) {
+          window.location.href = route.page;
+          return;
+        }
+      }
+    }
+  
+    alert("Sorry, we couldn't find a matching page. Try words like 'products', 'about', 'faq', or 'prescription'.");
+  }
