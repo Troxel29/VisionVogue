@@ -26,7 +26,7 @@
   
     const routes = [
       { keywords: ['home'], page: 'Index.html' },
-      { keywords: ['products', 'glasses', 'shop'], page: 'Products.html' },
+      { keywords: ['products', 'glasses', 'shop'], page: 'Products.html' 'eyeglasses', 'sunglasses'] },
       { keywords: ['about', 'our story', 'history'], page: 'About-Us.html' },
       { keywords: ['blog', 'articles'], page: 'Blog.html' },
       { keywords: ['contact', 'support'], page: 'contact-us.html' },
