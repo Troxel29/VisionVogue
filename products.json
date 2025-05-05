@@ -1,0 +1,107 @@
+[
+    {
+      "id": 1,
+      "name": "Round Metal",
+      "description": "Durable metal design.",
+      "image": "images/glasses1.jpg",
+      "price": 99.00
+    },
+    {
+      "id": 2,
+      "name": "Hexagonal Modern Metal",
+      "description": "Durable metal design.",
+      "image": "images/glasses2.webp",
+      "price": 78.90
+    },
+    {
+      "id": 3,
+      "name": "Blue Oval Metal",
+      "description": "Sleek metal design.",
+      "image": "images/glasses3.jpg",
+      "price": 54.33
+    },
+    {
+      "id": 4,
+      "name": "Gold Metal Round",
+      "description": "Sleek and durable metal design.",
+      "image": "images/glasses4.jpg",
+      "price": 76.99
+    },
+    {
+      "id": 5,
+      "name": "Black Metal Round",
+      "description": "Sleek and durable metal design.",
+      "image": "images/glasses5.webp",
+      "price": 113.90
+    },
+    {
+      "id": 6,
+      "name": "Modern Round",
+      "description": "Round Black and Cheetah Print design.",
+      "image": "images/glasses6.jpg",
+      "price": 210.00
+    },
+    {
+      "id": 7,
+      "name": "Classic Frame",
+      "description": "Timeless style, lightweight comfort.",
+      "image": "images/glasses7.jpg",
+      "price": 150.00
+    },
+    {
+      "id": 8,
+      "name": "Classic Frame",
+      "description": "Timeless style, lightweight comfort.",
+      "image": "images/glasses8.jpg",
+      "price": 179.87
+    },
+    {
+      "id": 9,
+      "name": "Modern Plastic",
+      "description": "Round Pink Plastic design.",
+      "image": "images/glasses9.jpg",
+      "price": 129.00
+    },
+    {
+      "id": 10,
+      "name": "Sleek Rectangle",
+      "description": "Sleek and durable design.",
+      "image": "images/glasses10.webp",
+      "price": 89.00
+    },
+    {
+      "id": 11,
+      "name": "Classic Rectangle",
+      "description": "Sleek black plastic design.",
+      "image": "images/glasses11.webp",
+      "price": 59.90
+    },
+    {
+      "id": 12,
+      "name": "Rounded Rectangle",
+      "description": "Sleek black and grey plastic design.",
+      "image": "images/glasses13.jpeg",
+      "price": 109.99
+    },
+    {
+      "id": 13,
+      "name": "Optical Square",
+      "description": "Dark blue plastic design.",
+      "image": "images/glasses14.jpg",
+      "price": 99.99
+    },
+    {
+      "id": 14,
+      "name": "Square Frame",
+      "description": "Gold metal design.",
+      "image": "images/glasses15.webp",
+      "price": 97.99
+    },
+    {
+      "id": 15,
+      "name": "Oval Metal",
+      "description": "Round gold metal design.",
+      "image": "images/glasses16.avif",
+      "price": 109.99
+    }  ]
+  
